@@ -1,0 +1,345 @@
+.mainpagehead {
+  margin-top: 87px;
+}
+
+.mainpagehead .head-img2 {
+  width: 400px;
+}
+
+/*  */
+.main-benefits,
+.business-now,
+.mobile {
+  background-color: rgb(215, 249, 255);
+}
+
+.benefits {
+  grid-gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.benefits .img-div {
+  width: 265px;
+}
+.benefits img {
+  width: 120px;
+  border-radius: 50%;
+  padding: 10px;
+  background-color: #ffffff;
+}
+.utility .benefits {
+  grid-gap: 10px;
+}
+.utility .benefits .img-div {
+  width: 230px;
+}
+
+.benefits h5 {
+  padding: 0 10px;
+}
+
+.india-img img {
+  width: 250px;
+}
+
+.benefits1 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+.benefits1 .img-div {
+  width: 400px;
+}
+.benefits1 img {
+  width: 320px;
+}
+.benefits1 p {
+  padding: 0px 15px;
+}
+.trustimg {
+  width: 100px;
+}
+/*  */
+
+/*  */
+.everyone {
+  display: flex;
+  flex-wrap: wrap;
+}
+.everyone img {
+  width: 380px;
+}
+.everyone p {
+  font-size: 18px;
+}
+/*  */
+
+/*  */
+.partners img {
+  width: 140px;
+  transition: filter 0.5s ease-in-out;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  opacity: 0.5;
+}
+.partners img:hover {
+  filter: none;
+  -webkit-filter: grayscale(0);
+  -webkit-transform: scale(1.01);
+  opacity: 1;
+}
+/*  */
+
+/*  */
+@media screen and (max-width: 767px) {
+  .carousel .everyone {
+    margin: 0px 0px !important;
+  }
+  .carousel .everyone h4 {
+    text-align: center;
+  }
+  .carousel .everyone p {
+    text-align: center;
+    padding: 0 !important;
+  }
+}
+
+.carousel {
+  border: 1px solid black;
+  background-color: #d7f9ff;
+}
+
+.carousel img {
+  width: 250px;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 90px;
+  width: 90px;
+  outline: black;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: #812a07;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  color: black;
+  border: 1px solid black;
+  filter: invert(100%);
+}
+
+/*  */
+
+/* ************************* LENDING************************* */
+.lending .everyone img {
+  width: 380px;
+}
+
+.lending .india-img img {
+  width: 110px;
+}
+.getting-started {
+  background-color: rgb(255, 255, 255);
+}
+.getting-child {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 20px 20px;
+  justify-content: center;
+}
+.getting-child .layout1 {
+  border-radius: 12px;
+  width: 260px;
+  height: 150px;
+  padding: 20px;
+  font-size: 18px;
+  background-color: #e1faff;
+  border: 1px solid #069cff;
+  box-shadow: #00000017 0px 3px 12px;
+}
+.getting-child .layout1:hover {
+  transition: 0.7s !important;
+  transform: scale(1.05) !important;
+  box-shadow: none;
+  cursor: pointer;
+}
+.business-card {
+  background-color: rgba(0, 225, 255, 0.377);
+}
+.business-card .india-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-gap: 30px;
+}
+.business-card .india-img div {
+  width: 330px;
+  height: 420px;
+  background-color: rgb(255, 255, 255);
+  padding: 0px 15px;
+  border-radius: 12px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.business-card .india-img div p {
+  letter-spacing: 0.5px;
+  padding-top: 10px;
+  font-size: 16.5px;
+}
+.business-card .india-img img {
+  width: 120px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.lending .mobile img {
+  width: 280px;
+}
+.lending .mobile .everyone {
+  display: flex;
+  align-items: center;
+}
+/* ************************** LENDING ************************ */
+.money-transfer-head-img img {
+  width: 350px;
+}
+.money-transfer .main-benefits .everyone img,
+.utility .main-benefits .everyone img,
+.sell-insurance .main-benefits .everyone img {
+  width: 400px;
+}
+/*  */
+.about-us p {
+  font-size: 18px;
+  line-height: 35px;
+  color: rgb(97, 96, 96);
+}
+/*  */
+
+/* *********************LOGIN FORM*************************** */
+.login .mainpagehead {
+  height: 73vh;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.signup-body {
+  position: absolute;
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+  filter: blur(3px);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url("https://wallpaper.dog/large/14296.jpg");
+}
+.oo {
+  margin-top: 50px !important;
+  height: 70vh;
+  background-color: rgba(255, 255, 255, 0.353);
+  box-shadow: rgb(255, 255, 255) 3px 3px 6px 0px inset,
+    rgb(255, 255, 255) -3px -3px 6px 1px inset;
+  border-radius: 12px;
+  position: absolute;
+  z-index: 1;
+}
+.back {
+  position: relative;
+  z-index: 5;
+}
+.form-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin-top: 50px;
+}
+.form-img {
+  margin-top: 50px;
+  width: 50%;
+}
+.form-img img {
+  width: 400px;
+}
+
+.form-content h2 {
+  letter-spacing: 3px;
+  margin-top: 10px;
+  color: white;
+}
+
+.form-content .input-div {
+  margin-top: 30px;
+  padding-bottom: 3px;
+  border-bottom: 2px solid #000000;
+  color: white;
+}
+
+.input-field {
+  padding: 8px;
+  width: 235px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  color: white;
+}
+.input-field::placeholder {
+  color: white;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.form-content i {
+  font-size: 22px;
+  color: rgb(208, 218, 218);
+}
+
+.form-content p {
+  color: white;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .form-content {
+    width: 100%;
+  }
+  .form-img {
+    width: 0% !important;
+  }
+}
+.bar {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.bar::before,
+.bar::after {
+  content: "";
+  border-bottom: 2px solid rgb(255, 255, 255);
+  width: 0px;
+  margin-top: 3px;
+  position: absolute;
+  transition: all 0.5s ease;
+}
+
+.bar::before {
+  left: 50%;
+}
+
+.bar::after {
+  right: 50%;
+}
+
+.input-field:focus ~ .bar::before,
+.input-field:focus ~ .bar::after {
+  width: 50%;
+}

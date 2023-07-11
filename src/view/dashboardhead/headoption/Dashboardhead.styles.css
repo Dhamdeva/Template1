@@ -1,0 +1,121 @@
+/* OFF CANVA */
+@media (max-width: 767px) {
+  .offcanvas {
+    visibility: visible;
+    position: relative;
+    background: none;
+    border: none;
+    justify-content: end;
+    width: 285px !important;
+    height: 100vh;
+  }
+
+  .offcanvas-start-md {
+    top: 0;
+    left: 0;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    transform: translateX(-100%);
+  }
+
+  .navbar-toggler {
+    cursor: pointer;
+  }
+
+  .navbar-toggler:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+  }
+
+  .dropdown li a {
+    padding: 5px;
+  }
+
+  .dropdown ul {
+    min-width: 15.5rem;
+  }
+  .navbar-nav .nav-link {
+    padding-left: 10px;
+  }
+}
+
+@media all and (min-width: 767px) {
+  .navbar-nav li:hover ul.dropdown-menu {
+    display: block;
+    transition: 0.5s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+    transform: rotatex(0deg);
+  }
+
+  .navbar .nav-item .dropdown-menu {
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.3s;
+    margin-top: 0;
+  }
+}
+
+.dropdown ul {
+  padding: 0;
+  border: 1px solid rgb(0, 242, 255);
+  border-radius: 10px;
+  background-color: rgb(237, 253, 255);
+}
+.dropdown li a {
+  padding: 10px 16px;
+  font-size: 15px;
+  color: rgb(44, 44, 44);
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease-out;
+}
+
+.dropdown li a:hover {
+  border-radius: 8px;
+  color: white;
+  background-color: rgba(4, 117, 137, 0.74);
+  border: none;
+}
+
+/* HEAD LOGO */
+.head-logo {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.head-logo .logo-circle {
+  height: 55px;
+}
+
+.head-logo .logo-text {
+  height: 22px;
+  padding-left: 10%;
+}
+
+/* NAV LINKS */
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+}
+
+.navbar-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.navbar-nav .nav-link {
+  min-width: 2rem;
+  letter-spacing: 1px;
+  height: 40px;
+  color: black;
+}
+
+.navbar-nav .nav-link:hover {
+  border: none;
+  transition-delay: 0.1s;
+  color: black !important;
+  border-bottom: 2px solid rgb(0, 183, 255) !important;
+}

@@ -1,0 +1,126 @@
+.main-footer {
+  background-image: linear-gradient(to right, #596164 0%, #757c81 100%);
+}
+
+.footer-icon {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-icon li {
+  position: relative;
+  list-style: none;
+  margin: 10px 15px 0px 15px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.footer-icon li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 15px;
+}
+
+.footer-icon li a .fa {
+  font-size: 1.8em;
+  color: #e6e6e6;
+}
+
+.footer-icon li a::before {
+  font-family: "FontAwesome";
+  position: absolute;
+  top: -7.5px;
+  left: 0px;
+  font-size: 1.8em;
+  height: 0;
+  overflow: hidden;
+  transition: 0.5s ease-in-out;
+}
+
+.footer-icon .linkedin a::before {
+  content: "\f08c";
+  color: #0077b5;
+  border-bottom: 2px solid #0077b5;
+}
+
+.footer-icon .twitter a::before {
+  content: "\f099";
+  color: #1da1f2;
+  border-bottom: 2px solid #1da1f2;
+}
+
+.footer-icon .facebook a::before {
+  content: "\f082";
+  color: #4267b2;
+  border-bottom: 2px solid #4267b2;
+}
+
+.footer-icon .playstore a i:hover {
+  color: #e70808;
+  transform: scale(1.1);
+  transition: 0.3s ease;
+}
+
+.footer-icon li:hover a::before {
+  height: 45px;
+}
+
+.footimg img {
+  height: 60px;
+}
+.footimg {
+  color: #e6e6e6;
+}
+@media screen and (max-width: 991px) {
+  .footimg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.foothead {
+  color: rgb(84, 215, 238);
+  font-weight: 600;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+}
+
+.foot li {
+  list-style: none;
+  font-size: 15px;
+}
+.foot p {
+  font-size: 15px;
+}
+.foot a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.foot a span {
+  color: rgb(255, 255, 255);
+  position: relative;
+  padding-bottom: 5px;
+}
+
+.foot a span::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  border-radius: 4px;
+  background: linear-gradient(to left, #55bef7, #00eeff);
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform 0.3s ease-in-out;
+}
+
+.foot a span:hover::before {
+  transform-origin: left;
+  transform: scaleX(1);
+}
